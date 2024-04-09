@@ -1,22 +1,23 @@
 package org.example.model;
 
 import java.util.ArrayList;
+import java.util.List;
 
 
 public class Folder implements IFileSystemItem {
-    private String name;
-    private ArrayList<IFileSystemItem> components;
+    private final String name;
+    private final ArrayList<IFileSystemItem> components;
 
     public Folder(String name) {
         this.name = name;
         this.components = new ArrayList<>();
     }
 
-    public String getName() {
+    public String name() {
         return name;
     }
 
-    public ArrayList<IFileSystemItem> getComponents() {
+    public List<IFileSystemItem> getComponents() {
         return components;
     }
 }

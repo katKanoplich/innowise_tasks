@@ -1,20 +1,27 @@
 package org.example;
 
+import lombok.Getter;
+import lombok.Setter;
 import org.example.model.File;
 import org.example.model.Folder;
 import org.example.model.IFileSystemItem;
 
 import java.util.Scanner;
+import java.util.logging.Logger;
 
 public class FileSystemEmulator {
-    public Folder root;
 
+    @Setter
+    @Getter
+    private Folder root;
 
     public void run() {
-        root = new Folder("dev");
+        root = new Folder("root");
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
+
+
             System.out.print("$> ");
             String input = scanner.nextLine();
             if (input.equals("print")) {
@@ -72,7 +79,7 @@ public class FileSystemEmulator {
 
     public Folder findFolder(Folder parentFolder, String folderName) {
         for (IFileSystemItem folder : parentFolder.getComponents()) {
-            if (folder.getName().equals(folderName)) {
+            if (folder.name().equals(folderName)) {
                 return (Folder) folder;
             }
         }
@@ -83,7 +90,7 @@ public class FileSystemEmulator {
         for (int i = 1; i < level; i++) {
             System.out.print("  ");
         }
-        System.out.println(component.getName());
+        System.out.println(component.name());
 
         if (component instanceof Folder folder) {
             for (IFileSystemItem subComponent : folder.getComponents()) {

@@ -1,41 +1,37 @@
-
 import org.example.FileSystemEmulator;
 import org.example.model.File;
 import org.example.model.Folder;
-import org.example.model.IFileSystemItem;
 import org.junit.jupiter.api.Test;
 
-import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
-import java.util.Scanner;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class FileSystemEmulatorTest {
+class FileSystemEmulatorTest {
 
     @Test
-    public void testBuildFileSystem() {
+    void testBuildFileSystem() {
         FileSystemEmulator fileSystemEmulator = new FileSystemEmulator();
-        fileSystemEmulator.root = new Folder("root");
+        fileSystemEmulator.setRoot(new Folder("root"));;
 
         fileSystemEmulator.buildFileSystem("folder1/folder2");
-        Folder folder1 = fileSystemEmulator.findFolder(fileSystemEmulator.root, "folder1");
+        Folder folder1 = fileSystemEmulator.findFolder(fileSystemEmulator.getRoot(), "folder1");
         Folder folder2 = fileSystemEmulator.findFolder(folder1, "folder2");
 
-        assertTrue(folder1 != null && folder2 != null);
+        assertNotNull(folder2);
     }
 
     @Test
-    public void testIsFile() {
+    void testIsFile() {
         FileSystemEmulator fileSystemEmulator = new FileSystemEmulator();
         assertTrue(fileSystemEmulator.isFile("file.txt"));
-        assertTrue(!fileSystemEmulator.isFile("folder"));
+        assertFalse(fileSystemEmulator.isFile("folder"));
     }
 
 
     @Test
-    public void testPrintFileSystem() {
+    void testPrintFileSystem() {
 
         Folder root = new Folder("root");
         Folder folder1 = new Folder("folder1");
@@ -54,18 +50,16 @@ public class FileSystemEmulatorTest {
         FileSystemEmulator fileSystemEmulator = new FileSystemEmulator();
         fileSystemEmulator.printFileSystem(root, 0);
 
-        String expectedOutput = "root\n" +
-                "folder1\n" +
-                "  folder2\n" +
-                "  file2.txt\n" +
-                "file1.txt\n";
+        String expectedOutput = "root" + System.lineSeparator() +
+                "folder1" + System.lineSeparator() +
+                "  folder2" + System.lineSeparator() +
+                "  file2.txt" + System.lineSeparator() +
+                "file1.txt" + System.lineSeparator();
 
-        String normalizedExpectedOutput = expectedOutput.replace("\r", "");
-
-        assertEquals(normalizedExpectedOutput, outContent.toString());
+        assertEquals(expectedOutput, outContent.toString());
     }
     @Test
-    public void testFindFolder() {
+    void testFindFolder() {
 
         Folder root = new Folder("root");
         Folder folder1 = new Folder("folder1");
