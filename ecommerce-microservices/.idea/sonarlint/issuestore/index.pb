@@ -75,3 +75,6 @@ Ggateway-service/src/main/java/com/programming/techie/gatwayservice.java,2\d\2d
 ]gateway-service/src/main/java/com/programming/techie/gatwayservice/ApiGatewayApplication.java,2\5\2503b0be8502f009ff4395ac8ed479698f918e79
 Ž
 ^gateway-service/src/main/java/com/programming/techie/gatewayservice/ApiGatewayApplication.java,5\d\5d305657c77537f711bfc12b78aa3b28e1d6875a
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
