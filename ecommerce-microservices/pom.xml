@@ -20,6 +20,7 @@
         <module>inventory-service</module>
         <module>discovery-server</module>
         <module>gateway-service</module>
+        <module>user-service</module>
     </modules>
 
     <properties>
