@@ -1,9 +1,0 @@
-
-–
-java:S1128"SRemove this unused import 'com.programmingtechi.inventory_service.model.Inventory'.(àš‚À8ˆ»î‹2J$976a1814-f51b-4a41-a173-966eb4352501
-ª
-java:S1128"bRemove this unused import 'com.programmingtechi.inventory_service.repisitory.InventoryRepository'.(ªŞ°ûÿÿÿÿ8ˆ»î‹2J$5559b64e-7a52-4fef-b5f2-decd97317871
-Š
-java:S1128"GRemove this unused import 'org.springframework.boot.CommandLineRunner'.(È—ÿÅ8ˆ»î‹2J$561185d3-bec7-4147-86fa-7f0844aafc70
-‹
-java:S1128	"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰Ş8ˆ»î‹2J$ac798340-7434-4398-9f30-ccc2006049b3

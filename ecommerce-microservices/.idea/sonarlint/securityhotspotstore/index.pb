@@ -134,3 +134,5 @@ Muser-service/src/main/java/com/programming/techie/UserServiceApplication.java,
 Ouser-service/src/main/java/com/programming/techie/config/ApplicationConfig.java,1\0\101bfef4c4e879dce48e33279debb6c9e772e993
 …
 Uuser-service/src/main/java/com/programming/techie/config/JwtAuthenticationFilter.java,8\d\8da9a2c05341e2bddc3f09b41de05765e3b8d3b2
+…
+Usrc/main/java/com/programmingtechi/inventory_service/InventoryServiceApplication.java,e\6\e6d86727330f4eef7e30ca5e5d88c525da52c7ad
