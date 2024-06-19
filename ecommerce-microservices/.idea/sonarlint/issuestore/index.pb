@@ -126,3 +126,11 @@ e
 5use-service/src/main/java/UserServiceApplication.java,e\6\e6220ff8a028df86819b1b365b556e832331d9df
 |
 Luse-service/src/main/java/com/programming/techie/UserServiceApplication.java,3\1\3177475dd91239501f2227072e7f2311dc1fa523
+D
+user-service/pom.xml,d\2\d2f5d1978e5f519100a679c4109f89296278badc
+}
+Muser-service/src/main/java/com/programming/techie/UserServiceApplication.java,9\4\943d7cea060d666aa7f26fd3381988f2b505b995
+
+Ouser-service/src/main/java/com/programming/techie/config/ApplicationConfig.java,1\0\101bfef4c4e879dce48e33279debb6c9e772e993
+…
+Uuser-service/src/main/java/com/programming/techie/config/JwtAuthenticationFilter.java,8\d\8da9a2c05341e2bddc3f09b41de05765e3b8d3b2

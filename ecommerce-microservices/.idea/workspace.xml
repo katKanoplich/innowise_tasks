@@ -5,57 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0363f233-34e9-4ef6-a399-0d185a1d9323" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/use-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-service/src/main/java/com/programming/techie/UserServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-service/src/main/java/com/programming/techie/config/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-service/src/main/java/com/programming/techie/config/JwtAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-service/src/main/java/com/programming/techie/config/JwtService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-service/src/main/java/com/programming/techie/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-service/src/main/java/com/programming/techie/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-service/src/main/java/com/programming/techie/controller/AuthenticationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-service/src/main/java/com/programming/techie/dto/auth/AuthenticationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-service/src/main/java/com/programming/techie/dto/auth/AuthenticationResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-service/src/main/java/com/programming/techie/dto/registry/RegisterRequestAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-service/src/main/java/com/programming/techie/dto/registry/RegisterRequestUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-service/src/main/java/com/programming/techie/exceptions/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-service/src/main/java/com/programming/techie/exceptions/UserAuthenticationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-service/src/main/java/com/programming/techie/model/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-service/src/main/java/com/programming/techie/model/Auth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-service/src/main/java/com/programming/techie/model/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-service/src/main/java/com/programming/techie/model/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-service/src/main/java/com/programming/techie/repository/AdminRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-service/src/main/java/com/programming/techie/repository/AuthRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-service/src/main/java/com/programming/techie/repository/ClientRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-service/src/main/java/com/programming/techie/repository/SearchEngineUserByUserAuthentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-service/src/main/java/com/programming/techie/service/AuthenticationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-service/src/main/java/com/programming/techie/service/SearchEngineUserRoleByUserAuthentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-service/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/programming/techie/UserServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/programming/techie/config/ApplicationConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/programming/techie/config/JwtAuthenticationFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/programming/techie/config/JwtService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/programming/techie/config/SecurityConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/programming/techie/config/WebConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/programming/techie/controller/AuthController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/programming/techie/controller/AuthenticationController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/programming/techie/dto/auth/AuthenticationRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/programming/techie/dto/auth/AuthenticationResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/programming/techie/dto/registry/RegisterRequestAdmin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/programming/techie/dto/registry/RegisterRequestUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/programming/techie/exceptions/GlobalExceptionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/programming/techie/exceptions/UserAuthenticationException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/programming/techie/model/Admin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/programming/techie/model/Auth.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/programming/techie/model/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/programming/techie/model/Role.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/programming/techie/repository/AdminRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/programming/techie/repository/AuthRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/programming/techie/repository/AuthService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/programming/techie/repository/ClientRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/programming/techie/repository/SearchEngineUserByUserAuthentication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/programming/techie/service/AuthServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/programming/techie/service/AuthenticationService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/programming/techie/service/SearchEngineUserRoleByUserAuthentication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -66,6 +16,39 @@
       <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/UserServiceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/config/ApplicationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/config/JwtAuthenticationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/config/JwtService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/config/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/controller/AuthController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/controller/AuthenticationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/dto/auth/AuthenticationRequest$AuthenticationRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/dto/auth/AuthenticationRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/dto/auth/AuthenticationResponse$AuthenticationResponseBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/dto/auth/AuthenticationResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/dto/registry/RegisterRequestAdmin$RegisterRequestAdminBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/dto/registry/RegisterRequestAdmin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/dto/registry/RegisterRequestUser$RegisterRequestUserBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/dto/registry/RegisterRequestUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/exceptions/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/exceptions/UserAuthenticationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/model/Admin$AdminBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/model/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/model/Auth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/model/Client$ClientBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/model/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/model/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/repository/AdminRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/repository/AuthRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/repository/AuthService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/repository/ClientRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/repository/SearchEngineUserByUserAuthentication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/service/AuthServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/service/AuthenticationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/programming/techie/service/SearchEngineUserRoleByUserAuthentication.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +205,7 @@
       </method>
     </configuration>
     <configuration name="UserServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="use-service" />
+      <module name="user-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.programming.techie.UserServiceApplication" />
       <extension name="coverage">
         <pattern>
