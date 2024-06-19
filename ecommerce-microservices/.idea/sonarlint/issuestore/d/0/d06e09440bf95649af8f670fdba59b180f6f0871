@@ -1,0 +1,7 @@
+
+‚
+java:S1854v":Remove this useless assignment to local variable "admins".(—½Ñÿýÿÿÿÿ8Ÿ¶å¬‚2J$3b6c3014-0dbf-4180-905c-ea5af3fb5561
+˜
+java:S6201i"PReplace this instanceof check and cast with 'instanceof UserDetails userDetails'(ñ¢ŸŽøÿÿÿÿ8Ç•à¬‚2J$7b684de3-797e-425b-b00d-a31f0b5b10e2
+s
+java:S1481v"+Remove this unused "admins" local variable.(—½Ñÿýÿÿÿÿ8¤¶å¬‚2J$8c552098-e42d-4e40-9af6-3aca2fc2dd0c
