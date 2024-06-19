@@ -10,10 +10,12 @@
         <module name="order-service" />
         <module name="inventory-service" />
         <module name="discovery-server" />
+        <module name="use-service" />
         <module name="gateway-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="us-service" target="17" />
       <module name="user-service" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -24,6 +26,8 @@
       <module name="inventory-service" options="-parameters" />
       <module name="order-service" options="-parameters" />
       <module name="product-service" options="-parameters" />
+      <module name="us-service" options="-parameters" />
+      <module name="use-service" options="-parameters" />
       <module name="user-service" options="-parameters -Amapstruct.defaultComponentModel=spring" />
     </option>
   </component>
