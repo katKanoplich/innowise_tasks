@@ -22,8 +22,6 @@
         <module>gateway-service</module>
         <module>user-service</module>
         <module>config-service</module>
-        <module>keyckloak</module>
-
     </modules>
 
     <properties>
