@@ -8,7 +8,6 @@
         <artifactId>ecommerce-microservices</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-
     <artifactId>inventory-service</artifactId>
 
     <properties>
@@ -25,7 +24,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <dependency>
             <groupId>com.mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
